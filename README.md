@@ -1,4 +1,3 @@
-# bbc
 <div align="center">
     <img src="https://github.com/speakeasy-sdks/bbc-typescript/assets/6267663/32ff15d2-8153-4b69-8bc8-207479cb6563" width="300">
     <h1>Typescript SDK</h1>
@@ -21,13 +20,13 @@ It has been generated successfully based on your OpenAPI spec. However, it is no
 ### NPM
 
 ```bash
-npm add <UNSET>
+npm add github.com/speakeasy-sdks/bbc-typescript
 ```
 
 ### Yarn
 
 ```bash
-yarn add <UNSET>
+yarn add github.com/speakeasy-sdks/bbc-typescript
 ```
 <!-- End SDK Installation [installation] -->
 
