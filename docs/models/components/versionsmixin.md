@@ -1,0 +1,11 @@
+# VersionsMixin
+
+
+## Fields
+
+| Field                                                                            | Type                                                                             | Required                                                                         | Description                                                                      |
+| -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| `availableSimulcasts`                                                            | [components.AvailableSimulcasts](../../models/components/availablesimulcasts.md) | :heavy_minus_sign:                                                               | N/A                                                                              |
+| `availableVersions`                                                              | [components.AvailableVersions](../../models/components/availableversions.md)     | :heavy_minus_sign:                                                               | N/A                                                                              |
+| `availableWebcasts`                                                              | [components.AvailableWebcasts](../../models/components/availablewebcasts.md)     | :heavy_minus_sign:                                                               | N/A                                                                              |
+| `versions`                                                                       | [components.Versions](../../models/components/versions.md)[]                     | :heavy_minus_sign:                                                               | N/A                                                                              |

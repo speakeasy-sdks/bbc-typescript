@@ -1,0 +1,12 @@
+# ImagesMixinImage
+
+
+## Fields
+
+| Field                                                                        | Type                                                                         | Required                                                                     | Description                                                                  |
+| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| `href`                                                                       | *string*                                                                     | :heavy_minus_sign:                                                           | N/A                                                                          |
+| `images`                                                                     | [components.ImagesMixinImages](../../models/components/imagesmixinimages.md) | :heavy_check_mark:                                                           | N/A                                                                          |
+| `inheritedFrom`                                                              | [components.InheritedFrom](../../models/components/inheritedfrom.md)         | :heavy_minus_sign:                                                           | N/A                                                                          |
+| `templateUrl`                                                                | *string*                                                                     | :heavy_check_mark:                                                           | N/A                                                                          |
+| `type`                                                                       | *string*                                                                     | :heavy_minus_sign:                                                           | N/A                                                                          |

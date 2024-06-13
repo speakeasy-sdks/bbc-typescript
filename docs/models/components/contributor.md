@@ -1,0 +1,16 @@
+# Contributor
+
+
+## Fields
+
+| Field                                                                    | Type                                                                     | Required                                                                 | Description                                                              |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
+| `contributorName`                                                        | [components.ContributorName](../../models/components/contributorname.md) | :heavy_minus_sign:                                                       | N/A                                                                      |
+| `contributorTo`                                                          | [components.ContributorTo](../../models/components/contributorto.md)[]   | :heavy_minus_sign:                                                       | N/A                                                                      |
+| `disambiguation`                                                         | *string*                                                                 | :heavy_minus_sign:                                                       | N/A                                                                      |
+| `href`                                                                   | *string*                                                                 | :heavy_minus_sign:                                                       | N/A                                                                      |
+| `identifiers`                                                            | [components.Identifiers](../../models/components/identifiers.md)         | :heavy_minus_sign:                                                       | N/A                                                                      |
+| `ids`                                                                    | [components.Ids](../../models/components/ids.md)                         | :heavy_minus_sign:                                                       | N/A                                                                      |
+| `partner`                                                                | *string*                                                                 | :heavy_check_mark:                                                       | N/A                                                                      |
+| `pid`                                                                    | *string*                                                                 | :heavy_check_mark:                                                       | N/A                                                                      |
+| `type`                                                                   | *string*                                                                 | :heavy_minus_sign:                                                       | N/A                                                                      |

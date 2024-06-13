@@ -1,0 +1,10 @@
+# ListPipsRequest
+
+
+## Fields
+
+| Field                                                                                          | Type                                                                                           | Required                                                                                       | Description                                                                                    |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| `page`                                                                                         | *number*                                                                                       | :heavy_minus_sign:                                                                             | which page of results to return                                                                |
+| `pageSize`                                                                                     | *number*                                                                                       | :heavy_minus_sign:                                                                             | number of results in each page                                                                 |
+| `q`                                                                                            | *string*                                                                                       | :heavy_minus_sign:                                                                             | filter for subset of programmes matching supplied keyword/phrase (boolean operators permitted) |

@@ -1,0 +1,13 @@
+workflowVersion: 1.0.0
+sources:
+    bbc:
+        inputs:
+            - location: ./openapi/openapi-bbc.yaml
+        overlays:
+            - location: ./openapi/out.yaml
+        registry:
+            location: registry.speakeasyapi.dev/speakeasy-bar-test/speakeasy-bar-test/bbc
+targets:
+    my-first-target:
+        target: typescript
+        source: bbc

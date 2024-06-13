@@ -1,0 +1,10 @@
+# AffectedByFilter
+
+
+## Fields
+
+| Field                                                                                    | Type                                                                                     | Required                                                                                 | Description                                                                              |
+| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| `description`                                                                            | *string*                                                                                 | :heavy_check_mark:                                                                       | N/A                                                                                      |
+| `filter`                                                                                 | [components.AffectedByFilterFilter](../../models/components/affectedbyfilterfilter.md)[] | :heavy_minus_sign:                                                                       | N/A                                                                                      |
+| `name`                                                                                   | *string*                                                                                 | :heavy_check_mark:                                                                       | N/A                                                                                      |

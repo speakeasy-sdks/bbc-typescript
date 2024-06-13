@@ -1,0 +1,72 @@
+overlay: 1.0.0
+info:
+  title: BBC Nitro API
+  version: 0.0.0
+actions:
+  - target: $["paths"]["/"]["get"]
+    update:
+      x-speakeasy-name-override: getAPIs
+  - target: $["paths"]["/"]["get"]["parameters"]
+    remove: true
+  - target: $["paths"]["/programme_details"]["get"]
+    update:
+      x-speakeasy-name-override: getProgramme
+  - target: $["paths"]["/schema"]["get"]
+    update:
+      x-speakeasy-name-override: getXSD
+  - target: $["paths"]["/schema"]["get"]["parameters"]
+    remove: true
+  - target: $["paths"]["/v1/brands/{pid}"]["get"]
+    update:
+      x-speakeasy-group: raw
+  - target: $["paths"]["/v1/brands/{pid}"]["get"]
+    update:
+      x-speakeasy-name-override: getBrand
+  - target: $["paths"]["/v1/brands/{pid}/franchises/"]["get"]
+    update:
+      x-speakeasy-group: raw
+  - target: $["paths"]["/v1/brands/{pid}/franchises/"]["get"]
+    update:
+      x-speakeasy-name-override: getBrandFranchises
+  - target: $["paths"]["/v1/episodes/{pid}"]["get"]
+    update:
+      x-speakeasy-group: raw
+  - target: $["paths"]["/v1/episodes/{pid}"]["get"]
+    update:
+      x-speakeasy-name-override: getEpisode
+  - target: $["paths"]["/v1/episodes/{pid}/ancestors/"]["get"]
+    update:
+      x-speakeasy-group: raw
+  - target: $["paths"]["/v1/episodes/{pid}/ancestors/"]["get"]
+    update:
+      x-speakeasy-name-override: getAncestors
+  - target: $["paths"]["/v1/episodes/{pid}/formats/"]["get"]
+    update:
+      x-speakeasy-group: raw
+  - target: $["paths"]["/v1/episodes/{pid}/formats/"]["get"]
+    update:
+      x-speakeasy-name-override: getFormats
+  - target: $["paths"]["/v1/episodes/{pid}/genre_groups/"]["get"]
+    update:
+      x-speakeasy-group: raw
+  - target: $["paths"]["/v1/episodes/{pid}/genre_groups/"]["get"]
+    update:
+      x-speakeasy-name-override: getGenreGroups
+  - target: $["paths"]["/v1/images/{pid}"]["get"]
+    update:
+      x-speakeasy-group: raw
+  - target: $["paths"]["/v1/images/{pid}"]["get"]
+    update:
+      x-speakeasy-name-override: getImage
+  - target: $["paths"]["/v1/master_brands/{mbid}"]["get"]
+    update:
+      x-speakeasy-group: raw
+  - target: $["paths"]["/v1/master_brands/{mbid}"]["get"]
+    update:
+      x-speakeasy-name-override: getMasterBrand
+  - target: $["paths"]["/v1/promotions/{pid}"]["get"]
+    update:
+      x-speakeasy-group: raw
+  - target: $["paths"]["/v1/promotions/{pid}"]["get"]
+    update:
+      x-speakeasy-name-override: getPromotion

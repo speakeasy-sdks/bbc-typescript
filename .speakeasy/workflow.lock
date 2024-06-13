@@ -1,0 +1,29 @@
+speakeasyVersion: 1.299.6
+sources:
+    bbc:
+        sourceNamespace: bbc
+        sourceRevisionDigest: sha256:45bd6b0d93c3442760dae1144902c1bdf784938672f3352b2e7718c64368de03
+        sourceBlobDigest: sha256:bf84b5b2eb7c27110f0dc8b20a04345f71a8c6dd94aa249e99012bd561e25119
+        tags:
+            - latest
+targets:
+    my-first-target:
+        source: bbc
+        sourceNamespace: bbc
+        sourceRevisionDigest: sha256:45bd6b0d93c3442760dae1144902c1bdf784938672f3352b2e7718c64368de03
+        sourceBlobDigest: sha256:bf84b5b2eb7c27110f0dc8b20a04345f71a8c6dd94aa249e99012bd561e25119
+        outLocation: /Users/ndimares/speakeasy/client_sdks/bbc/bbc-typescript
+workflow:
+    workflowVersion: 1.0.0
+    sources:
+        bbc:
+            inputs:
+                - location: ./openapi/openapi-bbc.yaml
+            overlays:
+                - location: ./openapi/out.yaml
+            registry:
+                location: registry.speakeasyapi.dev/speakeasy-bar-test/speakeasy-bar-test/bbc
+    targets:
+        my-first-target:
+            target: typescript
+            source: bbc

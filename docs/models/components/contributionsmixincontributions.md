@@ -1,0 +1,9 @@
+# ContributionsMixinContributions
+
+
+## Fields
+
+| Field                                                                                                    | Type                                                                                                     | Required                                                                                                 | Description                                                                                              |
+| -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| `contributionsMixinContribution`                                                                         | [components.ContributionsMixinContribution](../../models/components/contributionsmixincontribution.md)[] | :heavy_minus_sign:                                                                                       | N/A                                                                                                      |
+| `href`                                                                                                   | *string*                                                                                                 | :heavy_minus_sign:                                                                                       | N/A                                                                                                      |

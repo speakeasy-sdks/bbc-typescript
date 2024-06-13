@@ -1,0 +1,10 @@
+# AncestorsTitles
+
+
+## Fields
+
+| Field                                                                                  | Type                                                                                   | Required                                                                               | Description                                                                            |
+| -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| `brand`                                                                                | [components.AncestorsTitlesBrand](../../models/components/ancestorstitlesbrand.md)     | :heavy_minus_sign:                                                                     | N/A                                                                                    |
+| `episode`                                                                              | [components.AncestorsTitlesEpisode](../../models/components/ancestorstitlesepisode.md) | :heavy_minus_sign:                                                                     | N/A                                                                                    |
+| `series`                                                                               | [components.AncestorsTitlesSeries](../../models/components/ancestorstitlesseries.md)[] | :heavy_minus_sign:                                                                     | N/A                                                                                    |

@@ -1,0 +1,9 @@
+# AvailabilityMixinAvailability
+
+
+## Fields
+
+| Field                                                                                                | Type                                                                                                 | Required                                                                                             | Description                                                                                          |
+| ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `status`                                                                                             | *string*                                                                                             | :heavy_check_mark:                                                                                   | N/A                                                                                                  |
+| `versionTypes`                                                                                       | [components.AvailabilityMixinVersionTypes](../../models/components/availabilitymixinversiontypes.md) | :heavy_check_mark:                                                                                   | N/A                                                                                                  |
