@@ -76,6 +76,7 @@ paths:
     get:
       description: Discover details of on-demand availability for programmes and their versions
       operationId: listAvailability
+      x-speakeasy-usage-example: true
       parameters:
         - description: |
             Sorts:

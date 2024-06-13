@@ -12,7 +12,7 @@ generation:
   auth:
     oAuth2ClientCredentialsEnabled: true
 typescript:
-  version: 0.1.0
+  version: 0.2.0
   additionalDependencies:
     dependencies: {}
     devDependencies: {}
@@ -34,6 +34,6 @@ typescript:
   maxMethodParams: 4
   methodArguments: require-security-and-request
   outputModelSuffix: output
-  packageName: bbc
+  packageName: github.com/speakeasy-sdks/bbc-typescript
   responseFormat: envelope-http
   templateVersion: v2

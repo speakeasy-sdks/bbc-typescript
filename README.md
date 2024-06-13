@@ -44,14 +44,14 @@ For supported JavaScript runtimes, please consult [RUNTIMES.md](RUNTIMES.md).
 ### Example
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
     apiKey: "<YOUR_API_KEY_HERE>",
 });
 
 async function run() {
-    const result = await bbc.schema.getAPIs();
+    const result = await bbc.feeds.listAvailability({});
 
     // Handle the result
     console.log(result);
@@ -113,8 +113,8 @@ Validation errors can also occur when either method arguments or data returned f
 
 
 ```typescript
-import { Bbc } from "bbc";
-import * as errors from "bbc/models/errors";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
+import * as errors from "github.com/speakeasy-sdks/bbc-typescript/models/errors";
 
 const bbc = new Bbc({
     apiKey: "<YOUR_API_KEY_HERE>",
@@ -160,7 +160,7 @@ You can override the default server globally by passing a server index to the `s
 | 0 | `https://programmes.api.bbc.com` | None |
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
     serverIdx: 0,
@@ -184,7 +184,7 @@ run();
 The default server can also be overridden globally by passing a URL to the `serverURL` optional parameter when initializing the SDK client instance. For example:
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
     serverURL: "https://programmes.api.bbc.com",
@@ -221,8 +221,8 @@ custom header and a timeout to requests and how to use the `"requestError"` hook
 to log errors:
 
 ```typescript
-import { Bbc } from "bbc";
-import { HTTPClient } from "bbc/lib/http";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
+import { HTTPClient } from "github.com/speakeasy-sdks/bbc-typescript/lib/http";
 
 const httpClient = new HTTPClient({
   // fetcher takes a function that has the same signature as native `fetch`.
@@ -265,7 +265,7 @@ This SDK supports the following security scheme globally:
 
 To authenticate with the API the `apiKey` parameter must be set when initializing the SDK client instance. For example:
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
     apiKey: "<YOUR_API_KEY_HERE>",

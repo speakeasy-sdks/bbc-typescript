@@ -17,7 +17,7 @@ Get API definition
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -57,7 +57,7 @@ Get Schema definition
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",

@@ -20,7 +20,7 @@ Get raw brand
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -61,7 +61,7 @@ Get raw brand franchises
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -102,7 +102,7 @@ Get raw episode
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -143,7 +143,7 @@ Get raw ancestors
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -184,7 +184,7 @@ Get raw formats
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -225,7 +225,7 @@ Get raw genre groups
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -266,7 +266,7 @@ Get raw image
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -307,7 +307,7 @@ Get raw masterbrand
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -348,7 +348,7 @@ Get raw promotion
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",

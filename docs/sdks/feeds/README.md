@@ -29,7 +29,7 @@ Discover details of on-demand availability for programmes and their versions
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -70,7 +70,7 @@ Fetch metadata about linear Broadcasts and Services, allowing the generation of 
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -111,7 +111,7 @@ Long-lived curated collections of programmes and more, including Collections, Se
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -152,7 +152,7 @@ Find metadata for images, particularly those in galleries
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -193,7 +193,7 @@ Look inside programmes to find segments: chapters, tracks and more
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -234,7 +234,7 @@ List all Master Brands
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -275,7 +275,7 @@ The People feed allows you to search for the people and groups that contribute t
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -316,7 +316,7 @@ Look inside pips entities
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -359,7 +359,7 @@ Exposes programme information for a single pid
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -403,7 +403,7 @@ Fetch metadata about Programmes (brands, series, episodes, clips). By applying d
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -444,7 +444,7 @@ Details of short-term editorially curated "promotions", for instance those progr
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -485,7 +485,7 @@ Dates, Times, Schedules: when and where are programmes being shown?
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -526,7 +526,7 @@ The services feed exposes the linear broadcast "services" from PIPs. These are t
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",
@@ -567,7 +567,7 @@ The versions feed exposes editorial "Versions" of programmes. These are concepts
 ### Example Usage
 
 ```typescript
-import { Bbc } from "bbc";
+import { Bbc } from "github.com/speakeasy-sdks/bbc-typescript";
 
 const bbc = new Bbc({
   apiKey: "<YOUR_API_KEY_HERE>",

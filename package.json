@@ -1,6 +1,6 @@
 {
-  "name": "bbc",
-  "version": "0.1.0",
+  "name": "github.com/speakeasy-sdks/bbc-typescript",
+  "version": "0.2.0",
   "author": "Speakeasy",  
   "main": "./index.js",
   "sideEffects": false,
