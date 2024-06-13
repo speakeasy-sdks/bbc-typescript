@@ -1,10 +1,9 @@
 # bbc
-
-<div align="left">
-    <a href="https://speakeasyapi.dev/"><img src="https://custom-icon-badges.demolab.com/badge/-Built%20By%20Speakeasy-212015?style=for-the-badge&logoColor=FBE331&logo=speakeasy&labelColor=545454" /></a>
-    <a href="https://opensource.org/licenses/MIT">
-        <img src="https://img.shields.io/badge/License-MIT-blue.svg" style="width: 100px; height: 28px;" />
-    </a>
+<div align="center">
+    <img src="https://github.com/speakeasy-sdks/bbc-typescript/assets/6267663/32ff15d2-8153-4b69-8bc8-207479cb6563" width="300">
+    <h1>Typescript SDK</h1>
+   <p>The British Broadcating Corporation</p>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" /></a>
 </div>
 
 
